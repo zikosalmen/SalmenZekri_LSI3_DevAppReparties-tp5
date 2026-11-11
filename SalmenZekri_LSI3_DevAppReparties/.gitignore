@@ -1,0 +1,22 @@
+# Bytecode Java
+*.class
+bin/
+*/bin/
+
+# Eclipse Workspace Metadata
+.metadata/
+*/.metadata/
+.recommenders/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Fichiers temporaires ou IDE
+.vscode/
+.idea/
+*.log
+
+# Ne pas ignorer les JARs nécessaires aux clients (conversionClient.jar, banqueClient.jar)
+!*.jar
